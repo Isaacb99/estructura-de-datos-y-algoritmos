@@ -7,8 +7,8 @@ if __name__ == "__main__":
     salir = True
     while salir:
         print("opcion 1: ingresar item a la pila")
-        print("opcion 2: suprimir y recuperar el ultimo item de la pila")
-        print("opcion 3: recorrer la pila")
+        print("opcion 2: suprimir y recuperar el primer item de la cola")
+        print("opcion 3: recorrer la cola")
         print("opcion 4: salir")
         opcion = int(input("Ingrese opcion: \n"))
         os.system("cls")
